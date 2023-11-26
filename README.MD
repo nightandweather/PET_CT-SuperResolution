@@ -1,22 +1,24 @@
-# Pet/CT Superresolution and Tumor Synthesis Project
+# PET/CT Superresolution and Tumor Synthesis
 
-This project aims to address the issue of low resolution in the CT portion of Pet/CT images. Specifically, we perform tumor synthesis based on the Pet signal to enhance the CT image and subsequently upsample it to create CT images at the level commonly used in medical imaging.
+## Overview:
 
-## Key Steps:
+This project addresses the challenge of low CT resolution in PET/CT images. In cases where the CT signal fails to reveal details visible in the PET signal, we employ tumor synthesis on the CT component using the PET signal. The synthesized image is then subjected to superresolution to generate high-quality CT images suitable for use in medical imaging.
 
-1. **Preprocessing for CT Resolution Enhancement:**
-   - Preprocess the CT image using the Pet signal to compensate for its low resolution.
+## Key Objectives:
 
-2. **Tumor Synthesis:**
-   - Synthesize tumors onto the CT image based on the Pet signal obtained from the Pet/CT images.
+1. **Resolution Enhancement using PET Signal:**
+   - Compensate for low CT resolution by leveraging information from the PET signal.
 
-3. **High-Resolution CT Image Generation:**
-   - Upsample the synthesized CT image to a higher resolution to improve the quality of medical imaging.
+2. **Tumor Synthesis on CT Images:**
+   - Employ tumor synthesis on the CT component using the PET signal to enhance visibility.
+
+3. **Superresolution for Medical Imaging:**
+   - Apply superresolution techniques to produce high-resolution CT images suitable for medical applications.
 
 ## Code and Usage:
 
-The code for this project is documented step by step in the 'inference2.ipynb' file. Empty code sections will be filled in later, and code explanations are kept as simple as possible.
+The code for this project is provided in the 'inference2.ipynb' file, documented step by step. Empty code sections will be populated in future updates. Code explanations are kept straightforward for ease of understanding.
 
 ## Note:
 
-- This project is developed for research purposes in the field of medical imaging, specifically focusing on CT image resolution enhancement and tumor synthesis using Pet signals.
+- This project is aimed at advancing PET/CT imaging by addressing low CT resolution issues through PET signal-based tumor synthesis and subsequent superresolution. It is designed to contribute to the field of medical imaging, particularly in enhancing the quality of CT images derived from PET/CT scans.
